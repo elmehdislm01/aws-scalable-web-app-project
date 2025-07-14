@@ -56,3 +56,5 @@ Rule: It is strictly configured to only allow inbound HTTP (Port 80) and/or HTTP
 Traffic Flow Summary:
 
 User requests from the Internet first hit the Internet Gateway and are then routed to the Web App ALB (in the public subnets). The ALB, secured by the ALB SG, forwards these requests to the healthy EC2 Instances (in the private subnets). These instances are managed by the Web App ASG and are protected by the EC2 SG, which only permits traffic originating from the ALB. This architecture ensures a secure, highly available, and dynamically scalable web application.
+
+http://mehdi-project-1225960289.us-east-1.elb.amazonaws.com/
