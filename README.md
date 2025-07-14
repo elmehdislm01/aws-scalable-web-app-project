@@ -1,18 +1,9 @@
 # Project 1: Scalable Web Application with ALB and Auto Scaling
 This repository contains the architecture and implementation details for a scalable web application deployed on Amazon Web Services (AWS). The core of this project involves utilizing EC2 instances to host the web application, leveraging an Application Load Balancer (ALB) to efficiently distribute incoming traffic, and an Auto Scaling Group (ASG) to dynamically adjust computing capacity based on demand. This setup ensures continuous availability, resilience, and optimized resource utilization for the web application.
+
+
+
 ![Solution Architecture Diagram](Blank%20diagram.png)
-
-
-Okay, looking at your diagram again, I understand exactly what you need to type to explain it clearly in your README.md.
-
-You've got the visual, now let's write the narrative that goes with it. This explanation will go under the "Solution Architecture" heading in your README.md, right after you embed the image.
-
-Here's a detailed, step-by-step explanation you can adapt, assuming your diagram has been updated based on the previous feedback (i.e., ALB/ASG/EC2 are correctly inside the VPC and subnets):
-
-Solution Architecture Explanation (for your README.md)
-(First, embed your diagram here using Markdown: ![Solution Architecture Diagram](Blank%20diagram.png) - assuming that's your filename in the repo)
-
-The architecture for this scalable web application is designed to ensure high availability, fault tolerance, and automatic scaling to meet varying user demands. It leverages fundamental AWS networking and compute services, as illustrated in the diagram above.
 
 Here's a breakdown of the key components and their interactions:
 
